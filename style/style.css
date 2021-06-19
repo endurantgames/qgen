@@ -1,0 +1,179 @@
+/* base css file for TTRPG projects */
+/* Reminder: 1in = 72 pt; 0.75in = 54pt; 0.5in = 36pt; 0.25in = 18pt; 0.125in = 9 pt; */
+
+@page         { size: letter landscape; padding: 36pt; }
+header        { display: none;                         }
+header p.data { string-set: date content()             }
+header h1     { string-set: title content()            }
+
+:root {
+  --font: "Marcellus";
+  --font-header: "Marcellus SC";
+  --font-toolkit: "Montserrat";
+
+  --icon-thin: 'Font Awesome 5 Free Regular';
+  --icon-solid: 'Font Awesome 5 Free Solid';
+  --icon-game: 'game-icons';
+
+  --body: 10pt;
+  --larger: 11pt;
+  --smaller: 9pt;
+  --small: 8pt;
+  --large: 12pt;
+
+  --h1: 24pt; 
+  --h2: 20pt;
+  --h3: 18pt;
+  --h4: 16pt;
+  --h5: 14pt;
+  --h6: 12pt;
+  --th: 11pt;
+  --toolkit: 8pt; 
+
+  --color-lines: gray;
+  --color-light: silver;
+  --color-toolkit: #006600;
+
+  --bgcolor-sidebar: #EEEEEE;
+
+  counter-reset: table figure sidebar;
+}
+
+body               { font-family: var(--font); font-size: var(--body);                                            }
+td                 { font-size: var(--body); vertical-align: top;                                                 }
+th                 { font-family: var(--font-header); font-size: var(--th); vertical-align: bottom;               }
+h1                 { font-family: var(--font-header); font-size: var(--h1); text-align: center; column-span: all; }
+h2                 { font-family: var(--font-header); font-size: var(--h2);                                       }
+h3                 { font-family: var(--font-header); font-size: var(--h3);                                       }
+h4                 { font-family: var(--font-header); font-size: var(--h4);                                       }
+h5                 { font-family: var(--font-header); font-size: var(--h5);                                       }
+h6                 { font-family: var(--font-header); font-size: var(--h6);                                       }
+body               { column-count: 2; column-width: auto; column-gap: 36pt;                                       }
+h1                 { break-before: page; break-after: avoid-page; break-inside: avoid;                            }
+h2, h3, h4, h5, h6 { break-inside: avoid; break-after: avoid;                                                     }
+.breakbefore       { break-before: page;                                                                          }
+.colbefore         { break-before: column;                                                                        }
+.nobreak           { break-before: avoid-page;                                                                    }
+.nocolbreak        { break-before: avoid-column;                                                                  }
+.colspan           { column-span: all;                                                                            }
+.bottom            { column-span: all; float: page-bottom;                                                        }
+p+table            { break-before: avoid-page;                                                                    }
+table              { border-collapse: collapse; break-inside: avoid-page;                                         }
+table tr           { break-inside: avoid-page;                                                                    }
+table thead        { break-after: avoid; border-bottom: 0.5pt solid var(--color-lines);                           }
+table th, table td { padding: 2pt;                                                                                }
+
+ul, ol       { break-inside: avoid; }
+ul, ol       { margin-left: 1em;    }
+ul li, ul ol { margin-left: 1em;    }
+
+.sidebar { 
+  float-placement:   top;
+  float-reference:   column;
+  border:            0.5pt solid var(--color-lines);
+  border-radius:     2pt;
+  padding:           3pt 6pt;
+  margin-bottom:     9pt;
+  background:        var(--bgcolor-sidebar);
+}
+
+.sidebar.next { float-defer-column: 1;                                                    }
+.sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
+
+img { -prince-image-resolution: 96;
+      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
+
+p, li { orphans: 3; line-height: 1.40pt; }
+
+@page { @bottom-center {
+  content:         counter(page);
+  font-family:     var(--font-headline);
+  font-size:       var(--big);
+  margin-top:      18pt;
+  margin-bottom:   18pt;
+  text-align:      center;
+} }
+
+@page { @top-left {
+  content:         string(title) ' Draft by Cadera Spindrift';
+  font-family:     var(--font-header);
+  font-size:       var(--small);
+  margin-top:      18pt;
+  margin-bottom:   18pt;
+  margin-left:     -554pt;
+  padding-left:    54pt;
+  border-bottom:   0.25pt solid var(--color-line);
+  color:           var(--color-light);
+  text-align:      left;
+} }
+
+@page { @top-right {
+  content:         string(date);
+  font-family:     var(--font-header);
+  font-size:       var(--small);
+  margin-top:      18pt;
+  margin-bottom:   18pt;
+  margin-right:    -554pt;
+  padding-right:   54pt;
+  border-bottom:   0.25pt solid var(--color-line);
+  color:           var(--color-light);
+  text-align:      right;
+} }
+
+@page :first { @bottom-center { content: none; }  }
+@page :first { @top-left      { content: none; }  }
+@page :first { @top-right     { content: none; }  }
+
+
+figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
+table caption     { counter-increment: table; display: block; font-size: var(--th); font-family: var(--font-header);       }
+.sidehead         { counter-increment: sidebar;                                                                       }
+.chapter          { counter-increment: chapter;                                                                       }
+.section          { counter-increment: section;                                                                       }
+
+figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
+figure caption:before    { content: 'Table ' counter(table) ': ';   }
+
+.section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
+.chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
+
+#toc {
+  /*column-span: all; float: top;*/
+  /*column-count: 4; column-width: auto; column-gap: 12pt;*/
+}
+#toc a:before    { content: target-content(attr(href)) ' ';                        }
+#toc a:after     { content: leader('. ') target-counter(attr(href), page);         }
+#toc ul          { margin-left: 0;                                                 }
+#toc ul li       { list-style-type: none; line-height: 1.1;                        }
+#toc ul ul li    { margin-left: 8pt; font-weight: normal;                          }
+#toc ul ul ul li { font-size: var(--smaller);                                      }
+#toc > ul > li   { font-weight: bold; margin-bottom: 4pt; font-size: var(--larger) }
+
+#toc ul { -prince-pdf-tag-type: TOC; }
+#toc li { -prince-pdf-tag-type: TOCI; }
+
+.tstoolkit p { font-family: var(--font-toolkit); font-size: var(-toolkit); }
+.tstoolkit :matches(h1, h2, h3, h4, h5, h6) { font-family: var(--font-toolkit); color: var(--color-toolkit); margin-bottom: 3pt; }
+
+.license { column-span: all; column-count: 3; column-gap: 12pt; font-size: var(--small); page: license; }
+
+.license h2      { font-size: var(--large); column-span: all; margin-bottom: 3pt; }
+.license h3      { font-size: var(--larger);                                      }
+.license > ol    { margin-left: 9pt;                                              }
+.license > ol ol { margin-left: 6pt;                                              }
+.license > ol li { margin-left: 6pt;                                              }
+.license ol p    { margin-top: 0; margin-bottom: 2pt;                             }
+.license p       { text-align: justify;                                           }
+
+@page license    { margin: 24pt; padding: 0; }
+/* @page license { @top-left                 { content: none; }  }
+   @page license { @top-right                { content: none; }  }
+*/
+
+/* a:link, a:active, a:visited, a:hover { text-decoration: none; color: black; } */
+ *
+a:link    { text-decoration: none; color: blue;   }
+a:active  { text-decoration: none; color: red;    }
+a:visited { text-decoration: none; color: purple; }
+a:hover   { text-decoration: none; color: red;    }
+
