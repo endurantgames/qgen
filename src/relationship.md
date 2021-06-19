@@ -4,7 +4,7 @@ If you think it may matter, you can roll on **Relationship Status** to determine
 Qex is single or not.
 
 ::::::::::::::::::::::: sidebar :::::::::::::::::::::::::::::::::::
-[Play Safely]{.sidehead}
+[Play Safely]{.sidehead .cw}
 
 Neither GMs nor players should just assume that romance or sexual
 activities will ensue between any given characters.

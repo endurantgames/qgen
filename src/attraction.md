@@ -154,7 +154,7 @@ there aren't three dots after the result.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## [Specific Type of Attraction]{.optional}
+## [Specific Type of Attraction]{.optional .breakbefore}
 
 For each result above, you can roll on the next table to see if they've got a "type".
 Again, roll 1d6 and keep adding if the result ends in three dots.

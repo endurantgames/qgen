@@ -182,6 +182,8 @@ img.span { column-span: all; border-radius: 9pt; }
 img.bottom { margin-top: 12pt; float-placement: bottom; float-reference: column }
 img.top { margin-bottom: 12pt; float-placement: top; float-reference: column }
 
+.optional:after { content: ' (Optional)'; }
+
 .sidehead { counter-increment: sidebar; }
 .chapter  { counter-increment: chapter; }
 .section  { counter-increment: section; }
@@ -240,7 +242,7 @@ figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
 
 .anchor { position: absolute; color: transparent; }
 
-.license h2      { font-size: var(--large); column-span: all; margin-bottom: 3pt; }
+.license h2      { font-size: var(--h4); column-span: all; margin-bottom: 6pt; }
 .license h3      { font-size: var(--larger);          }
 .license li      { break-inside: auto;                }
 .license > ol    { margin-left: 9pt;                  }
@@ -249,7 +251,7 @@ figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
 .license ol p    { margin-top: 0; margin-bottom: 2pt; }
 .license p       { text-align: justify;               }
 
-@page license    { margin: 24pt; padding: 0; }
+@page license    { margin: 36pt; padding: 0; }
 @page license { @top-left  { content: normal; }  }
 @page license { @top-right { content: normal; }  }
 
@@ -267,7 +269,7 @@ a:hover   { text-decoration: none; color: red;    }
   content: '\f071';
   display: inline-block;
   margin-right: 0.5em;
-  color: #EEDD00;
+  color: #EEBB00;
 }
 
 .inclu:before { /* notes on inclusion */
