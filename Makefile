@@ -50,7 +50,7 @@ PROJ_FLAGS  = $(FLAGS) $(PROJ_CSS)
 #   Edit: probably unnecessary
 PANDOC         = /usr/bin/pandoc
 PANDOCFLAGS    = --variable=date:"$(DATE)" -f $(PANDOC_MD_EXT) --pdf-engine=prince 
-PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fancy_lists+startnum+table_captions+link_attributes+fenced_divs+implicit_figures+bracketed_spans+auto_identifiers
+PANDOC_MD_EXT  = markdown+pipe_tables+escaped_line_breaks+header_attributes+fancy_lists+startnum+table_captions+link_attributes+fenced_divs+bracketed_spans+auto_identifiers
 
 # Prince Config
 #   Edit: Sure, if you need to

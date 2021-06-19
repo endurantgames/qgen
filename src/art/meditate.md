@@ -1,3 +1,3 @@
 
-![A genderfluid person meditating](art/meditate.jpg)
-
+![A genderfluid person meditating](art/meditate.jpg) \ 
+ 

@@ -1,3 +1,3 @@
 
-![A transgender woman holding a rosary](art/rosary.jpg)
+![A transgender woman holding a rosary](art/rosary.jpg){.top} \ 
 

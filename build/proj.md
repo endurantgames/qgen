@@ -4,14 +4,16 @@ lang: en-US
 title: QGen
 ...
 
-:::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
-![Cover Image](art/cover.jpg "Cover Image")
+:::::::::::::: {#cover} :::::::::::::::::::::::::::::::::
+<img src="art/cover.jpg" alt="Cover Image" />)
 
 <h1>QGen</h1>
-## Random Queer Characters Generator by Cadera Spindrift 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+## Random Queer Character Generator 
+### by Cadera Spindrift 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# QGen
+# QGen:
+## Random Queer Character Generator
 
 QGen is a series of dice tables that can be used to randomly generate a
 queer NPC for any tabletop roleplaying game.
@@ -24,6 +26,10 @@ NPCs, and do not reflect actual demographics of queer people in any way!
 The example character we'll be referring to throughout this document is
 named **Qex** -- standing for "queer example". You would, of course, use
 a name of your own choosing if you use this to create an NPC.
+
+
+
+ ![Two non-binary students looking at eachother in a school hallway](art/school.jpg){.bottom .span} \ 
 
 
 :::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -40,7 +46,7 @@ Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or somet
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Credits
+## Credits {.breakbefore}
 
 This game was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>.
 
@@ -60,24 +66,16 @@ The contents of the game are covered by the
 *Anti-Capitalist Attirbution Cooperative License* found at the end of the rules.
 
 
-## Gender {.breakbefore}
+## Gender
 
 The first thing we're going to determine about Qex is their gender. (Since we haven't determined
 yet which pronouns Qex uses, we're going with a non-specific singular "they" for now.)
 
-In most roleplaying games, characters have a quality that's called their *lineage*, *ancestry*, *culture*,
+In many roleplaying games, characters have a quality that's called their *lineage*, *ancestry*, *culture*,
 *race*, or *species*.
 If Qex is from a lineage that predominantly has two genders, male and female, roll on
 **Lineages with Binary Genders** to determine Qex's gender.
 
-If Qex is from a lineage that has no intrinsic gender -- such as androids or shapechangers -- roll on 
-**Lineage without Assigned Genders**.
-
-And finally, if Qex is from a lineage with 3 or more genders, consult 
-**Dice for Lineages with 3+ Genders**
-for the dice to roll; make a numbered list of the gender options; and roll on 
-**Lineages with 3+ Genders**.
- 
 ::::::::::::::::::::::::::: random ::::::::::::::::::::::::::::::::::::
 [Lineages with Binary Genders]{.caption}
 
@@ -105,6 +103,36 @@ for the dice to roll; make a numbered list of the gender options; and roll on
  20    Xenogender
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+![A genderfluid person and a transgender woman practicing tarot](art/tarot.jpg){.top} \ 
+
+- **Agender** Having no gender or not identifying with any gender.
+- **Bigender** A multigender identity that encompasses two genders. These need not be binary genders.
+- **Demifemale** A demigender with a connection to femaleness. Also sometimes called *demigirl*.
+- **Demigender** A gender identity that feels a partial, but not full, connection to a specific gender. In a culture with 3 or more genders, roll randomly to determine which gender Qex feels connected to.
+- **Demimale** A demigender with a connection to maleness. Also sometimes called *demiboy*.
+- **Female** One of the two traditional binary genders. Not everyone who is female has a binary gender, however.
+- **Genderfluid** Having a gender identity that changes or cycles over time. Roll an additional 1d4+1 genders to determine which genders Qex shifts between.
+- **Male** One of the two traditional binary genders. Not everyone who is male has a binary gender, however.
+- **Multigender** Feeling a connection to two or more genders, sometimes simultaneously. These need not be binary genders.
+- **Queer** Queer here indicates that someone doesn't fit into neat categories; they may not even be able to fully define their own gender, but just feel "queer".
+- **Xenogender** This refers to someone whose gender isn't expressed in terms of "male" or "female" or the absence of such, but instead may identify with an abstract concept, a color or other sensory characteristics, or a real or imaginary type of creature.
+
+::::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::::::
+Cadera is rolling up a version of Qex for a contemporary game
+in the 21st century, so she rolls on the table above. With
+a result of 10, she finds that Qex is *genderfluid.*
+
+She then rolls a 1 on the d4 -- see the description of genderfluid
+above -- which means Qex's fluidity is primarily between two 
+different genders. A roll of 8 establishes one of those 
+genders as *agender*, and a subsequent roll of 15 gives
+*demimale*. Cadera decides they identify as a *demiboy* instead,
+because that sounds more playful.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+If Qex is from a lineage that has no intrinsic gender -- such as androids or shapechangers -- roll on 
+**Lineage without Assigned Genders**.
+ 
 ::::::::::::::::::::::::::: random ::::::::::::::::::::::::::::::::::::
 [Lineage without Assigned Genders]{.caption}
 
@@ -131,6 +159,37 @@ for the dice to roll; make a numbered list of the gender options; and roll on
  20     Demifemale
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+![A genderfluid person meditating](art/meditate.jpg){.top} \ 
+ 
+[]{.definitions}
+
+- **Agender** Having no gender or not identifying with any gender.
+- **Bigender** A multigender identity that encompasses two genders. These need not be binary genders.
+- **Demifemale** A demigender with a connection to femaleness. Also sometimes called *demigirl*.
+- **Demigender** A gender identity that feels a partial, but not full, connection to a specific gender. In a culture with 3 or more genders, roll randomly to determine which gender Qex feels connected to.
+- **Demimale** A demigender with a connection to maleness. Also sometimes called *demiboy*.
+- **Female** One of the two traditional binary genders. Not everyone who is female has a binary gender, however.
+- **Genderfluid** Having a gender identity that changes or cycles over time. Roll an additional 1d6 genders to determine which genders Qex shifts between.
+- **Male** One of the two traditional binary genders. Not everyone who is male has a binary gender, however.
+- **Multigender** Feeling a connection to two or more genders, sometimes simultaneously. These need not be binary genders.
+- **Queer** Queer here indicates that someone doesn't fit into neat categories; they may not even be able to fully define their own gender, but just feel "queer".
+- **Xenogender** This refers to someone whose gender isn't expressed in terms of "male" or "female" or the absence of such, but instead may identify with an abstract concept, a color or other sensory characteristics, or a real or imaginary type of creature.
+
+:::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::
+For a science fiction game, Cadera rolled up a Qex who is
+an android. Androids don't necessarily have an intrinsic
+gender, so she rolls on this table. With a roll of 15,
+she learns that Qex is *xenogender*. 
+
+Cadera decides that Qex's complex gender involves an 
+identification with starships; Qex is vesselgender.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+And finally, if Qex is from a lineage with 3 or more genders, consult 
+**Dice for Lineages with 3+ Genders**
+for the dice to roll; make a numbered list of the gender options; and roll on 
+**Lineages with 3+ Genders**.
+
 ::::::::::::::::::::::::::: {.random .short} ::::::::::::::::::::::::::
 [Dice for Lineages with 3+ Genders]{.caption}
 
@@ -141,6 +200,18 @@ for the dice to roll; make a numbered list of the gender options; and roll on
   5                   d8+d12     
   6                   d12+d20   
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::
+Cadera needs a third version of Qex, for a fantasy game in which
+one of the races has 4 genders: top, bottom, strange, and charm.
+Noting that the chart says *d6+d8*, she makes a list of the four
+genders:
+
+1. top
+2. bottom
+3. strange
+4. charm
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::: random ::::::::::::::::::::::::::::::::::::
 [Lineages with 3+ Genders]{.caption}
@@ -180,20 +251,15 @@ for the dice to roll; make a numbered list of the gender options; and roll on
     32      Sixth Gender
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Notes
+![A non-binary femme using a makeup brush](art/brush.jpg){.top} \ 
 
-- **Agender** Having no gender or not identifying with any gender.
-- **Bigender** A multigender identity that encompasses two genders. These need not be binary genders.
-- **Demifemale** A demigender with a connection to femaleness. Also sometimes called *demigirl*.
+[]{.definitions}
+
 - **Demigender** A gender identity that feels a partial, but not full, connection to a specific gender. In a culture with 3 or more genders, roll randomly to determine which gender Qex feels connected to.
-- **Demimale** A demigender with a connection to maleness. Also sometimes called *demiboy*.
-- **Female** One of the two traditional binary genders. Not everyone who is female has a binary gender, however.
 - **Fifth Gender** In a culture with at least 5 genders, this is the fifth one on the list.
 - **First Gender** In a culture with at least 3 genders, this is the first one on the list.
 - **Fourth Gender** In a culture with at least 4 genders, this is the fourth one on the list.
-- **Genderfluid** Having a gender identity that changes or cycles over time. Roll an additional 1d6 genders to determine which genders Qex shifts between.
 - **Hexagender** A multigender identity that encompasses all six gender of a culture with six genders.
-- **Male** One of the two traditional binary genders. Not everyone who is male has a binary gender, however.
 - **Multigender** Feeling a connection to two or more genders, sometimes simultaneously. These need not be binary genders.
 - **Quadgender** A multigender identity that encompasses all four genders of a culture with four genders. In a culture of five or six genders, roll randomly to see which genders are excluded.
 - **Queer** Queer here indicates that someone doesn't fit into neat categories; they may not even be able to fully define their own gender, but just feel "queer".
@@ -204,7 +270,13 @@ for the dice to roll; make a numbered list of the gender options; and roll on
 - **Trigender** A multigender identity that encompasses all three genders of a culture with three genders. In a culture of more than three genders, roll randomly to see which genders are excluded.
 - **Xenogender** This refers to someone whose gender isn't expressed in terms of "male" or "female" or the absence of such, but instead may identify with an abstract concept, a color or other sensory characteristics, or a real or imaginary type of creature.
 
-### Optional: Trans, Cis, or Otherwise?
+::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::::::
+The d8 rolls an 8, and the d6 rolls 3, for a total of 11. This means
+that Qex is of the fourth gender. Counting down the list, Cadera
+determines that Qex's gender is *charm*.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### [Trans, Cis, or Otherwise?]{.optional}
 
 Now that we've determined Qex's gender, we can roll to see if they're transgender,
 cisgender, or something else.
@@ -227,12 +299,19 @@ cisgender, or something else.
  12     Transgender
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+#### Definitions
+
 - **Cisgender** A cis person is someone whose gender matches the gender they were assigned at birth.
 - **Neither** Some people don't identify strongly with being either cis or trans, and that's okay.
 - **Queer** As before, this is a catch-all category that usually indicates a rejection of strict labels.
 - **Transgender** A trans person is someone whose gender doesn't match the gender they were assigned at birth.
 
-#### Optional: Open or Guarded?
+::::::::::::::::: qex ::::::::::::::::::::::::::::::::::::::::::::::::
+Rolling on the table above, Cadera gets an 8, meaning that
+Qex -- at least this version of Qex -- is transgender.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### [Open or Hidden?]{.optional}
 
 Does Qex speak openly of being trans, cis, or otherwise? Or do they keep quiet about it?
 Roll on **The Closet?** to find out.
@@ -251,6 +330,12 @@ Roll on **The Closet?** to find out.
   8      Closeted
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::::::::::
+On the Closet? table, Cadera gets a result of 4. So while she knows
+Qex is trans, she also knows that Qex doesn't comment on it. It's
+really nobody else's business, after all -- or at least, that's
+how Qex views the situation.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::: sidebar ::::::::::::::::::::::::::::::::::::::::::::
 [Genders from Specific Cultures]{.sidehead}
@@ -298,6 +383,8 @@ table.
   18     It/Its
 :::::::::::::::::::::::::::::::::::::::::::::
 
+[]{.definitions}
+
 - **Any Pronouns** Some people have no problem answering to any pronoun set.
 - **Fae/Faer** These usually indicate some feeling of identification with faeries or fae creatures.
 - **He/Him** These are the traditional "male" pronouns.
@@ -307,12 +394,35 @@ table.
 - **She/Her** These are the traditional "female" pronouns.
 - **They/Them** This is usually a singular they.
 
+:::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::::::
+Cadera realizes she needs pronouns for Qex, so rolls 3d6 and
+consults the Pronouns table. Her roll of 9 gives a result of
+*they/them and ...* which means Qex uses not just *they/them*
+but will also accept at least one other pronoun set.
+
+A second roll on the table gives *she/her*, so Qex's pronouns
+are officially *they/she*.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+![A transmasculine gender-nonconforming person caressing the chest of a transfeminine non-binary person](art/caress.jpg){.bottom .span} \ 
+
 
 ## Attraction
 
-### Sexuality
+Attraction isn't a simple "do you like boys or do you like girls?" situation. It's
+a lot more complicated than that.
 
-You can roll on **Sexual Attraction** to determine whether Qen is asexual or allosexual.
+The first thing to recognize is that there are varying types of attractions that
+omeone might experience -- being sexually attracted to someone is not necessarily
+the same thing as being romantically attracted to them, and vice versa.
+
+For purposes of []{.gamename}, we've simplified this to look at just those two
+primary types of attraction -- sexual and romantic.
+
+### Sexual Attraction
+
+You can roll on **Sexual Attraction** to determine whether Qex is asexual or allosexual.
 
 :::::::::::::::: random ::::::::::::::::::::::
 [Sexual Attraction]{.caption}
@@ -332,9 +442,22 @@ You can roll on **Sexual Attraction** to determine whether Qen is asexual or all
  12     Asexual
 ::::::::::::::::::::::::::::::::::::::::::::::
 
-## Romantic Attraction
+[]{.definitions}
 
-Roll 2d4 and check **Romantic Attraction** to discover if Qen is aromantic or alloromantic.
+- **Allosexual** Allosexual people, in contrast to asexual people, experience a desire to have sex with another person.
+- **Asexual** Most asexual people experience a lack of sexual attraction. Some may be disinterested in sex, not have a sex drive, or may be repulsed by the idea of sex.
+- **Demisexual** A demisexual person is one who doesn't experience sexual attraction to someone unless they have a deep emotional connection.
+- **Greysexual** Also called *grey asexual*, greysexual refers to someone who relates to asexuality but feels their experience isn't fully defined by the term *asexual*.
+- **Queer** As a type of sexual attraction, queerness is defined by each individual, usually in a way that rejects traditional boundaries.
+
+::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls a total of 9 on the **Sexual Attraction** table --
+meaning that Qex is demisexual.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Romantic Attraction
+
+Roll 2d4 and check **Romantic Attraction** to discover if Qex is aromantic or alloromantic.
 
 :::::::::::::::: random ::::::::::::::::::::::
 [Romantic Attraction]{.caption}
@@ -353,6 +476,20 @@ Roll 2d4 and check **Romantic Attraction** to discover if Qen is aromantic or al
  11     Aromantic
  12     Queer
 ::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.definitions}
+
+- **Alloromantic** Alloromantic people, in contrast to aromanticpeople, experience romantic attraction to other people.
+- **Aromantic** Most aromantic people experience a lack of romantic attraction.
+- **Demiromantic** A demiromantic person is one who doesn't experience romantic attraction to someone unless they have a deep emotional connection.
+- **Greyromantic** Greyromantic refers to someone who relates to aromanticism but feels their experience isn't fully defined by the term *aromantic*.
+- **Queer** As a type of romantic attraction, queerness is defined by each individual, usually in a way that rejects traditional boundaries.
+
+::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+A roll of 4 on the **Romantic Attraction** table finds that
+qex is *alloromantic*, which is a fancy way of saying
+"not aromantic."
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Attraction Parameters
 
@@ -382,6 +519,8 @@ might mean "femme and butch" in a lesbian context, and
 For these tables, first roll 1d6. Then, if there are three periods after the result, roll
 another d6 and add it to the first one.
 
+![A transmasculine gender-nonconforming person and transfeminine non-binary person sleeping together in bed](art/bed.jpg){.top .span} \ 
+
 :::::::: random :::::::::::::::::::::::::::::::::::::::::::
 [Broad Category of Attraction]{.caption}
 
@@ -407,10 +546,31 @@ another d6 and add it to the first one.
   18+  Everyone
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-For each result above, roll on the next table to see if they've got a "type".
+:::::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::
+Rolling for Qex's sexual attraction first, Cadera gets a 1 --
+*Everyone, but especially ...* She notes this down, and since
+the result ends in three dots, and rolls again.
+
+The second roll gives a 3, bringing the running total to 4.
+Qex likes *Everyone, but especially, female people and ...*
+
+A third roll of 4 produces a running total of 8, so the list of
+who Qex likes consists of 
+*everyone, but especially female people and non-binary people*.
+
+For romance, a initial roll of 2 means Qex is only romantically
+attracted to female people; Cadera doesn't roll again because
+there aren't three dots after the result.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### [Specific Type of Attraction]{.optional}
+
+For each result above, you can roll on the next table to see if they've got a "type".
+Again, roll 1d6 and keep adding if the result ends in three dots.
 
 :::::::: random :::::::::::::::::::::::::::::::::::::::::::
-[Optional: Specific Kind of Attraction]{.caption}
+[Specific Type of Attraction]{.caption}
 
  1d6+  Result
 ------ --------------------------
@@ -428,15 +588,49 @@ For each result above, roll on the next table to see if they've got a "type".
   12+  Everyone
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::
+Qex's demisexuality includes attraction to *everyone, female
+people, and non-binary people*, and Cadera thinks that's enough
+of a "type", sexually. She's much more interested in seeing what
+kind of person Qex likes.
 
-## Optional: Relationship Status
+An initial roll of 2 means Qex likes *traditionally "masculine"
+women*, which Cadera interprets to mean Qex likes butches.
+A second roll of 5 gives a running total of 7, which is
+*everyone*; so although butch women are a special interest, Qex
+is interested in everyone female.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### [The Closet]{.optional}
+
+As with gender, you can use *The Closet* table to roll if Qex
+is open about their sexual and romantic attractions, or if they
+keep them well hidden.
+
+
+## [Relationship Status]{.optional}
 
 If you think it may matter, you can roll on **Relationship Status** to determine if 
 Qex is single or not.
 
-[Relationship Status]{.caption}
+::::::::::::::::::::::: sidebar :::::::::::::::::::::::::::::::::::
+[Play Safely]{.sidehead}
+
+Neither GMs nor players should just assume that romance or sexual
+activities will ensue between any given characters.
+
+Before such topics even become a potential issue, you should ensure
+that you have safety tools in place to prevent discomfort at the
+gaming table.
+
+The [TTRPG Safety Toolkit](https://drive.google.com/drive/folders/114jRmhzBpdqkAlhmveis0nmW73qkAZC)
+by Kienna Shaw and Lauren Bryant-Monk compiles a number of techniques
+designed to make your games safer for everyone.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::: random ::::::::::::::::::::::::::::
+[Relationship Status]{.caption}
+
  2d6   Status
 -----  -------------------------------
   2    Caught in a bad romance
@@ -452,6 +646,14 @@ Qex is single or not.
  12    Polyamorous, 2d4 partners
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::
+Because Cadera knows her players have a tendency to hit on her NPCs,
+she figures she should roll to see if Qex is in a relationship
+currently. With a result of 10 on the die, that means Qex is
+involved with someone, but it's an open relationship -- good news
+for the player characters!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Being single doesn't necessarily mean Qex is willing to flirt with any player character, however.
 If you think this might matter, roll 2d6 on **Flirting** to see how Qex normally flirts;
 a second time to see how they would like to be flirted with; and a third time for an approach
@@ -460,10 +662,10 @@ that will simply not work on them at all.
 :::::::::::: random ::::::::::::::::::::::::::::
 [Flirting]{.caption}
 
- 2d4     Flirting
+ 2d6     Flirting
 -----    -------------------------------
   2      Subtle and sophisticated charm
-  3      Suggestions of sexuality
+  3      Sexual innuendo
   4      Not interested in flirting
   5      Playful and teasing flirtation
   6      Mild flirtation
@@ -475,6 +677,22 @@ that will simply not work on them at all.
  12      Insults and sharp words
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::
+Rolling three times on the Flirting table, Cadera gets these
+results, in order:
+
+*8 - adorable cluelessness* This version of Qex is apparently not
+the best at navigating courtship, but still looks cute while
+doing embarrassing things.
+
+*9 - earnest compliments* That's what will really interest Qex
+in someone else -- if they give honest compliments, without
+veering into flattery or manipulation.
+
+*3 - sexual innuendo* Crass lewdness is a turn-off for Qex;
+anyone trying that will at the very least end up on poor terms
+with Qex.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Appearance
 
@@ -505,6 +723,12 @@ Assume that Qex is unremarkable in any category you don't roll.
  12    A, B
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::
+Cadera rolls 2d6 to determine which of the tables she'll roll on
+to figure out what Qex's body looks like. Rolling a 7, she sees
+she'll have to roll on each of the following tables.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape A (Tall or Short)]{.caption}
 
@@ -518,6 +742,10 @@ Assume that Qex is unremarkable in any category you don't roll.
   7    Short
   8    Very tall
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::
+Rolling 2d4, Cadera gets a 4 -- so Qex is shorter than average.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape B (Fat or Thin)]{.caption}
@@ -533,6 +761,21 @@ Assume that Qex is unremarkable in any category you don't roll.
   8    Very thin
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::: sidebar :::::::::::::::::::::::::::::::::::::::::
+["Fat"?]{.sidehead}
+
+Rather than using some euphemism for fat, the tables here
+just outright say "fat". There's nothing wrong with being
+fat and the term, when used positively, isn't rude.
+
+If you're not sure about all this, you might want to read up
+on fat acceptance!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::
+A total of 7 on 2d4 means that Qex is fat.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape C (Muscular)]{.caption}
 
@@ -544,6 +787,10 @@ Assume that Qex is unremarkable in any category you don't roll.
   8    Very muscular
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls a 7, meaning that Qex is more muscular than average.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape D (Curvy)]{.caption}
 
@@ -554,6 +801,16 @@ Assume that Qex is unremarkable in any category you don't roll.
   7    More curvy than average
   8    Very curvy
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::
+With a 4 on the die, Qex is of average curviness.
+
+Putting it all together, Cadera has a clearer image in her head
+of Qex: short and fat, but also muscular. "Stocky" is the usual
+word for someone like that!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+![A genderqueer person using a beauty blender vertical](art/blender.jpg){.top} \ 
 
 ### Hair
 
@@ -577,6 +834,11 @@ Roll 2d6 for Qex's hair color on **Hair Color**, then 2d6 on **Hairstyle**.
  12    Roll 1d8+3 two times
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls 2d6 for Qex's hair color and gets an 8 -- Qex has
+pink hair.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Hair Style]{.caption}
 
@@ -595,6 +857,14 @@ Roll 2d6 for Qex's hair color on **Hair Color**, then 2d6 on **Hairstyle**.
  12    Braids
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::::
+Rolling a 7, Cadera sees she has to roll 1d6+1 and 1d6+6.
+
+The first results in a 4, so a total of 5 -- meaning Qex has
+"floppy" hair. The second result of a total of 10 gives Qex
+shaved sides.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ### Facial Hair
 
 Anyone of any gender can have facial hair. Roll 2d6 on **Facial Hair** to determine
@@ -605,14 +875,21 @@ if Qex has a beard or not.
 
  2d6    Facial Hair
 -----   --------------------------
-  2     Short Beard
-  3     Moustache
+  2     Moustache
+  3     Short Beard
   4     Sideburns
  5-9    None
  10     Stubble
  11     Van Dyke
  12     Impressively Long Beard
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::::
+A roll of 3 on the dice gives Qex a nicely trimmed beard.
+
+Returning to the hair color table on a lark, Cadera rolls a 5 --
+so Qex's beard is purple!
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Clothes
 
@@ -635,6 +912,11 @@ or randomly assembled.
   8    Subtle
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::::::
+With a roll of 4 on the Clothing Style table, Cadera notes down
+that Qex's clothes are "casual."
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
 [Outfit]{.caption}
 
@@ -645,6 +927,14 @@ or randomly assembled.
  3-5   Roll separately for top and bottom; matching style
   6    Roll separately for top and bottom; mismatched styles
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+A roll of 4 informs Cadera that Qex's clothes are all of the same
+style -- all casual.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+![A transgender woman in business attire smiling in an office](art/business.jpg) \ 
 
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Clothing (Top)]{.caption}
@@ -661,6 +951,11 @@ or randomly assembled.
   9    Leather harness
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls 2d4 and gets a total of 7 -- apparently Qex usually
+wears a comfortable and *revealing* blouse!
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Clothing (Bottom)]{.caption}
 
@@ -675,6 +970,12 @@ or randomly assembled.
   8     Short Skirt
   9     Leather pants
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+A final roll of 2d4 on the **Clothing** table gives Qex an
+unremarkable pair of pants.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Age
 
@@ -694,7 +995,15 @@ apparent age.
    12    Ancient            1d4+8
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Optional: Biases and Bigotries
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::
+Cadera rolls 2d6 and gets a 8 on the die; this means
+that Qex is a mature adult. According to the table,
+a mature adult rolls 1d8+2 to find their apparent age;
+rolling a 2 for a total of 4 means that Qex looks like a 
+young adult.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## [Biases and Bigotries]{.optional}
 
 [Content Warning:]{.cw} This section mentions a number of bigotries that an NPC
 might have. In no way is this meant as an endorsement of such beliefs, only that
@@ -727,7 +1036,11 @@ to find out.
   40     Roll twice more
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::
+Cadera decides that Qex might have a flaw, so she rolls on this table
+to find out -- a total of 9 finds that Qex is biased against men.
+Well, that sucks.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -29,6 +29,8 @@ table.
   18     It/Its
 :::::::::::::::::::::::::::::::::::::::::::::
 
+[]{.definitions}
+
 - **Any Pronouns** Some people have no problem answering to any pronoun set.
 - **Fae/Faer** These usually indicate some feeling of identification with faeries or fae creatures.
 - **He/Him** These are the traditional "male" pronouns.
@@ -38,3 +40,12 @@ table.
 - **She/Her** These are the traditional "female" pronouns.
 - **They/Them** This is usually a singular they.
 
+:::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::::::
+Cadera realizes she needs pronouns for Qex, so rolls 3d6 and
+consults the Pronouns table. Her roll of 9 gives a result of
+*they/them and ...* which means Qex uses not just *they/them*
+but will also accept at least one other pronoun set.
+
+A second roll on the table gives *she/her*, so Qex's pronouns
+are officially *they/she*.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

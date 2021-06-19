@@ -1,8 +1,18 @@
 # Attraction
 
-## Sexuality
+Attraction isn't a simple "do you like boys or do you like girls?" situation. It's
+a lot more complicated than that.
 
-You can roll on **Sexual Attraction** to determine whether Qen is asexual or allosexual.
+The first thing to recognize is that there are varying types of attractions that
+omeone might experience -- being sexually attracted to someone is not necessarily
+the same thing as being romantically attracted to them, and vice versa.
+
+For purposes of []{.gamename}, we've simplified this to look at just those two
+primary types of attraction -- sexual and romantic.
+
+## Sexual Attraction
+
+You can roll on **Sexual Attraction** to determine whether Qex is asexual or allosexual.
 
 :::::::::::::::: random ::::::::::::::::::::::
 [Sexual Attraction]{.caption}
@@ -22,9 +32,22 @@ You can roll on **Sexual Attraction** to determine whether Qen is asexual or all
  12     Asexual
 ::::::::::::::::::::::::::::::::::::::::::::::
 
-# Romantic Attraction
+[]{.definitions}
 
-Roll 2d4 and check **Romantic Attraction** to discover if Qen is aromantic or alloromantic.
+- **Allosexual** Allosexual people, in contrast to asexual people, experience a desire to have sex with another person.
+- **Asexual** Most asexual people experience a lack of sexual attraction. Some may be disinterested in sex, not have a sex drive, or may be repulsed by the idea of sex.
+- **Demisexual** A demisexual person is one who doesn't experience sexual attraction to someone unless they have a deep emotional connection.
+- **Greysexual** Also called *grey asexual*, greysexual refers to someone who relates to asexuality but feels their experience isn't fully defined by the term *asexual*.
+- **Queer** As a type of sexual attraction, queerness is defined by each individual, usually in a way that rejects traditional boundaries.
+
+::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls a total of 9 on the **Sexual Attraction** table --
+meaning that Qex is demisexual.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Romantic Attraction
+
+Roll 2d4 and check **Romantic Attraction** to discover if Qex is aromantic or alloromantic.
 
 :::::::::::::::: random ::::::::::::::::::::::
 [Romantic Attraction]{.caption}
@@ -43,6 +66,20 @@ Roll 2d4 and check **Romantic Attraction** to discover if Qen is aromantic or al
  11     Aromantic
  12     Queer
 ::::::::::::::::::::::::::::::::::::::::::::::
+
+[]{.definitions}
+
+- **Alloromantic** Alloromantic people, in contrast to aromanticpeople, experience romantic attraction to other people.
+- **Aromantic** Most aromantic people experience a lack of romantic attraction.
+- **Demiromantic** A demiromantic person is one who doesn't experience romantic attraction to someone unless they have a deep emotional connection.
+- **Greyromantic** Greyromantic refers to someone who relates to aromanticism but feels their experience isn't fully defined by the term *aromantic*.
+- **Queer** As a type of romantic attraction, queerness is defined by each individual, usually in a way that rejects traditional boundaries.
+
+::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+A roll of 4 on the **Romantic Attraction** table finds that
+qex is *alloromantic*, which is a fancy way of saying
+"not aromantic."
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Attraction Parameters
 
@@ -72,6 +109,8 @@ might mean "femme and butch" in a lesbian context, and
 For these tables, first roll 1d6. Then, if there are three periods after the result, roll
 another d6 and add it to the first one.
 
+![A transmasculine gender-nonconforming person and transfeminine non-binary person sleeping together in bed](art/bed.jpg){.top .span} \ 
+
 :::::::: random :::::::::::::::::::::::::::::::::::::::::::
 [Broad Category of Attraction]{.caption}
 
@@ -97,10 +136,31 @@ another d6 and add it to the first one.
   18+  Everyone
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-For each result above, roll on the next table to see if they've got a "type".
+:::::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::
+Rolling for Qex's sexual attraction first, Cadera gets a 1 --
+*Everyone, but especially ...* She notes this down, and since
+the result ends in three dots, and rolls again.
+
+The second roll gives a 3, bringing the running total to 4.
+Qex likes *Everyone, but especially, female people and ...*
+
+A third roll of 4 produces a running total of 8, so the list of
+who Qex likes consists of 
+*everyone, but especially female people and non-binary people*.
+
+For romance, a initial roll of 2 means Qex is only romantically
+attracted to female people; Cadera doesn't roll again because
+there aren't three dots after the result.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## [Specific Type of Attraction]{.optional}
+
+For each result above, you can roll on the next table to see if they've got a "type".
+Again, roll 1d6 and keep adding if the result ends in three dots.
 
 :::::::: random :::::::::::::::::::::::::::::::::::::::::::
-[Optional: Specific Kind of Attraction]{.caption}
+[Specific Type of Attraction]{.caption}
 
  1d6+  Result
 ------ --------------------------
@@ -117,4 +177,23 @@ For each result above, roll on the next table to see if they've got a "type".
   11   Androgynous
   12+  Everyone
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::
+Qex's demisexuality includes attraction to *everyone, female
+people, and non-binary people*, and Cadera thinks that's enough
+of a "type", sexually. She's much more interested in seeing what
+kind of person Qex likes.
+
+An initial roll of 2 means Qex likes *traditionally "masculine"
+women*, which Cadera interprets to mean Qex likes butches.
+A second roll of 5 gives a running total of 7, which is
+*everyone*; so although butch women are a special interest, Qex
+is interested in everyone female.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## [The Closet]{.optional}
+
+As with gender, you can use *The Closet* table to roll if Qex
+is open about their sexual and romantic attractions, or if they
+keep them well hidden.
 

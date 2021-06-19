@@ -1,4 +1,4 @@
-# Optional: Biases and Bigotries
+# [Biases and Bigotries]{.optional}
 
 [Content Warning:]{.cw} This section mentions a number of bigotries that an NPC
 might have. In no way is this meant as an endorsement of such beliefs, only that
@@ -31,4 +31,8 @@ to find out.
   40     Roll twice more
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::
+Cadera decides that Qex might have a flaw, so she rolls on this table
+to find out -- a total of 9 finds that Qex is biased against men.
+Well, that sucks.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

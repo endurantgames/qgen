@@ -1,4 +1,5 @@
-# QGen
+# QGen:
+## Random Queer Character Generator
 
 QGen is a series of dice tables that can be used to randomly generate a
 queer NPC for any tabletop roleplaying game.

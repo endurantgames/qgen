@@ -28,8 +28,10 @@ header h1     { string-set: gamename content()       }
 }
 
 :root {
-  --font: "Marcellus";
-  --font-header: "Marcellus SC";
+  /* --font: "Marcellus"; */
+  /* --font-header: "Marcellus SC"; */
+  --font-header: "Yeseva One";
+  --font: "Arima Madurai";
   --font-toolkit: "Montserrat";
 
   --icon-thin: 'Font Awesome 5 Free Regular';
@@ -41,13 +43,13 @@ header h1     { string-set: gamename content()       }
   --smaller:    9pt;
   --small:      8pt;
   --large:     12pt;
-  --title:     54pt;
+  --title:    144pt;
   --subtitle:  36pt;
   --h1:        24pt; 
-  --h2:        20pt;
-  --h3:        18pt;
-  --h4:        16pt;
-  --h5:        14pt;
+  --h2:        16pt;
+  --h3:        15pt;
+  --h4:        14pt;
+  --h5:        13pt;
   --h6:        12pt;
   --th:        11pt;
   --toolkit:    8pt; 
@@ -59,6 +61,7 @@ header h1     { string-set: gamename content()       }
   --bgcolor-sidebar: #EEEEEE;
   --bgcolor-toolkit: #F8FFF8;
   --bgcolor-random: #F8F8F8;
+  --bgcolor-qex: radial-gradient(white, #FF88FF);
 
   counter-reset: table figure sidebar;
 }
@@ -81,7 +84,6 @@ h1                 { column-span: all; text-align: center;                  }
 .nobreak           { break-before: avoid-page;                              }
 .nocolbreak        { break-before: avoid-column;                            }
 .colspan           { column-span: all;                                      }
-.bottom            { column-span: all; float: page-bottom;                  }
 p+table            { break-before: avoid-page;                              }
 table              { border-collapse: collapse;                             }
 table tr           { break-inside: avoid-page;                              }
@@ -91,12 +93,19 @@ table th, table td { padding: 2pt;                                          }
 table th           { vertical-align: bottom;                                }
 table td           { vertical-align: top;                                   }
 
-#cover + h1   { counter-reset: page; counter-increment: page; break-before: right; }
+#cover + h1 { 
+  counter-reset: page; counter-increment: page; break-before: right; 
+  margin-bottom: 0;
+}
+#cover + h1 + h2 { font-size: 20pt; text-align: center; column-span: all; margin-top: 0; }
 
 /* ul, ol       { break-inside: avoid; } */
 li           { break-inside: avoid; }
-ul, ol       { margin-left: 1em;    }
-ul li, ul ol { margin-left: 1em;    }
+ol       { margin-left: 1em;    }
+ul { margin-left: 0; }
+ul li { margin-left: 1.5em; list-style-type: none; }
+ul li strong { display: inline-block; margin-right: 0.25em; margin-left: -1.5em; } 
+ol li { margin-left: 1em;    }
 
 .sidebar p { margin-top: 6pt; margin-bottom: 0; }
 .sidebar { 
@@ -114,8 +123,8 @@ ul li, ul ol { margin-left: 1em;    }
 .sidebar.next { float-defer-column: 1;                                                    }
 .sidehead     { font-weight: bold; font-family: var(--font-header); font-size: var(--h4); }
 
-img { -prince-image-resolution: 96;
-      -prince-image-magic: recompress(50%) convert-to-jpeg(50%) snap-to-integer-coords; } 
+img { -prince-image-resolution: 96dpi; }
+img { -prince-image-magic: recompress(50%); }
 
 p, li { orphans: 3; line-height: 1.40; }
 
@@ -159,13 +168,19 @@ p, li { orphans: 3; line-height: 1.40; }
 @page:nth(3) { @top-left      { content: normal; }  }
 @page:nth(3) { @top-right     { content: normal; }  }
 
-figure figcaption { 
-  counter-increment: figure; 
-  display: block; 
-  font-size: var(--th); 
-  font-family: var(--font-header); 
-}
+figure figcaption { display: none; }
 
+#cover figure { float: none; margin-top: 0; margin-bottom: 0; }
+#cover figure img { border-radius: 0; }
+
+figure { float-placement: bottom; float-reference: column; margin-top: 6pt; margin-bottom: 6pt; }
+figure img { width: 100%; height: auto; border-radius: 3pt; }
+
+img { width: 100%; height: auto; border-radius: 6pt; }
+
+img.span { column-span: all; border-radius: 9pt; }
+img.bottom { margin-top: 12pt; float-placement: bottom; float-reference: column }
+img.top { margin-bottom: 12pt; float-placement: top; float-reference: column }
 
 .sidehead { counter-increment: sidebar; }
 .chapter  { counter-increment: chapter; }
@@ -271,21 +286,37 @@ a:hover   { text-decoration: none; color: red;    }
 #cover { break-after: page; width: 8.5in; height: 11in; position: relative; }
 #cover h1 { 
   position: absolute; 
-  top: 3in; left: 1in; 
+  top: 0.5in; left: 1in; 
   width: 6.5in; 
+  color: white;
   text-align: center; 
   font-size: var(--title); 
 }
 
 #cover h2 { 
   position: absolute; 
-  top: 7in; left: 1in; 
+  top: 3.0in; left: 1in; 
   width: 6.5in; 
+  color: white;
   text-align: center; 
   font-size: var(--subtitle); 
 }
 
-#cover img { position: absolute; top: 0; left: 0; width: 8.5in; height: 11in; }
+@page :first {
+  background: linear-gradient(to bottom right, red, orange, goldenrod, green, teal, blue, purple, violet,
+                                               red, orange, goldenrod, green, teal, blue, purple, violet); 
+}
+
+#cover h3 {
+  position: absolute;
+  top: 9.0in; left: 1in;
+  width: 6.5in;
+  text-align: center;
+  color: white;
+  font-size: var(--subtitle);
+}
+
+#cover img { position: absolute; top: 0.5in; left: 0.5in; width: 7.5in; height: 10in; border-radius: 0.125in; }
 
 @page:blank { @top-left { content: normal; } }
 @page:blank { @top-right { content: normal; } }
@@ -308,6 +339,8 @@ a:hover   { text-decoration: none; color: red;    }
   font-size: var(--th); 
   font-family: var(--font-header);       
   background: linear-gradient(to right, red, orange, goldenrod, green, teal, blue, purple, violet); 
+  padding-right: 2em;
+  padding-left: 2em;
   margin-left: -0.5pt;
   margin-right: -0.5pt;
   padding-top: 2pt;
@@ -332,3 +365,35 @@ a:hover   { text-decoration: none; color: red;    }
   margin-top: 6pt;
 }
 
+.qex:before {
+  display: block;
+  font-family: var(--font-header);
+  font-size: var(--h5);
+  content: 'QEXample';
+  font-weight: bold;
+  padding-top: 6pt;
+  text-align: outside;
+  break-after: avoid;
+}
+
+.qex {
+  border-radius: 6pt;
+  padding-left: 9pt;
+  padding-right: 9pt;
+  margin-bottom: 9pt;
+  padding-bottom: 3pt; 
+  margin-top: 9pt;
+  margin-left: 6pt;
+  margin-right: 6pt; 
+  background: var(--bgcolor-qex);
+}
+
+.definitions { 
+  font-weight: bold;
+  font-family: var(--font-header);
+  font-size: var(--h5);
+}
+.definitions:before { content: 'Some Definitions:' } 
+
+.qex p { break-inside: avoid; text-align: justify; }
+  

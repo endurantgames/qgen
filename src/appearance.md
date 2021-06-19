@@ -27,6 +27,12 @@ Assume that Qex is unremarkable in any category you don't roll.
  12    A, B
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::
+Cadera rolls 2d6 to determine which of the tables she'll roll on
+to figure out what Qex's body looks like. Rolling a 7, she sees
+she'll have to roll on each of the following tables.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape A (Tall or Short)]{.caption}
 
@@ -40,6 +46,10 @@ Assume that Qex is unremarkable in any category you don't roll.
   7    Short
   8    Very tall
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::
+Rolling 2d4, Cadera gets a 4 -- so Qex is shorter than average.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape B (Fat or Thin)]{.caption}
@@ -55,6 +65,21 @@ Assume that Qex is unremarkable in any category you don't roll.
   8    Very thin
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::: sidebar :::::::::::::::::::::::::::::::::::::::::
+["Fat"?]{.sidehead}
+
+Rather than using some euphemism for fat, the tables here
+just outright say "fat". There's nothing wrong with being
+fat and the term, when used positively, isn't rude.
+
+If you're not sure about all this, you might want to read up
+on fat acceptance!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::
+A total of 7 on 2d4 means that Qex is fat.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape C (Muscular)]{.caption}
 
@@ -66,6 +91,10 @@ Assume that Qex is unremarkable in any category you don't roll.
   8    Very muscular
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls a 7, meaning that Qex is more muscular than average.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
 [Body Shape D (Curvy)]{.caption}
 
@@ -76,6 +105,16 @@ Assume that Qex is unremarkable in any category you don't roll.
   7    More curvy than average
   8    Very curvy
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::
+With a 4 on the die, Qex is of average curviness.
+
+Putting it all together, Cadera has a clearer image in her head
+of Qex: short and fat, but also muscular. "Stocky" is the usual
+word for someone like that!
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+![A genderqueer person using a beauty blender vertical](art/blender.jpg){.top} \ 
 
 ## Hair
 
@@ -99,6 +138,11 @@ Roll 2d6 for Qex's hair color on **Hair Color**, then 2d6 on **Hairstyle**.
  12    Roll 1d8+3 two times
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls 2d6 for Qex's hair color and gets an 8 -- Qex has
+pink hair.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Hair Style]{.caption}
 
@@ -117,6 +161,14 @@ Roll 2d6 for Qex's hair color on **Hair Color**, then 2d6 on **Hairstyle**.
  12    Braids
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::::
+Rolling a 7, Cadera sees she has to roll 1d6+1 and 1d6+6.
+
+The first results in a 4, so a total of 5 -- meaning Qex has
+"floppy" hair. The second result of a total of 10 gives Qex
+shaved sides.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ## Facial Hair
 
 Anyone of any gender can have facial hair. Roll 2d6 on **Facial Hair** to determine
@@ -127,14 +179,21 @@ if Qex has a beard or not.
 
  2d6    Facial Hair
 -----   --------------------------
-  2     Short Beard
-  3     Moustache
+  2     Moustache
+  3     Short Beard
   4     Sideburns
  5-9    None
  10     Stubble
  11     Van Dyke
  12     Impressively Long Beard
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::::::
+A roll of 3 on the dice gives Qex a nicely trimmed beard.
+
+Returning to the hair color table on a lark, Cadera rolls a 5 --
+so Qex's beard is purple!
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Clothes
 
@@ -157,6 +216,11 @@ or randomly assembled.
   8    Subtle
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::: qex ::::::::::::::::::::::::::::::::::::::
+With a roll of 4 on the Clothing Style table, Cadera notes down
+that Qex's clothes are "casual."
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
 [Outfit]{.caption}
 
@@ -167,6 +231,14 @@ or randomly assembled.
  3-5   Roll separately for top and bottom; matching style
   6    Roll separately for top and bottom; mismatched styles
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+A roll of 4 informs Cadera that Qex's clothes are all of the same
+style -- all casual.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+![A transgender woman in business attire smiling in an office](art/business.jpg) \ 
 
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Clothing (Top)]{.caption}
@@ -183,6 +255,11 @@ or randomly assembled.
   9    Leather harness
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+Cadera rolls 2d4 and gets a total of 7 -- apparently Qex usually
+wears a comfortable and *revealing* blouse!
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::: random ::::::::::::::::::::::::::::::::::::::::::
 [Clothing (Bottom)]{.caption}
 
@@ -197,3 +274,9 @@ or randomly assembled.
   8     Short Skirt
   9     Leather pants
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::: qex :::::::::::::::::::::::::::::::::::::::::::
+A final roll of 2d4 on the **Clothing** table gives Qex an
+unremarkable pair of pants.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

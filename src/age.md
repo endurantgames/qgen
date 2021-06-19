@@ -15,3 +15,11 @@ apparent age.
    11    Elder              1d6+6
    12    Ancient            1d4+8
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::: qex :::::::::::::::::::::::::::::::::
+Cadera rolls 2d6 and gets a 8 on the die; this means
+that Qex is a mature adult. According to the table,
+a mature adult rolls 1d8+2 to find their apparent age;
+rolling a 2 for a total of 4 means that Qex looks like a 
+young adult.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
