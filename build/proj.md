@@ -1,8 +1,60 @@
+
+---
+lang: en-US
+title: Untitled Game Project
+...
+
+:::::::::::::::::::::::::::::::::::::::::: {#cover} :::::::::::::::::::::::::::::::::::::::::::::::::::
+![Cover Image](art/placeholder.png "Cover Image")
+
+<h1>QGen</h1>
+## Random Queer Characters Generator by Cadera Spindrift 
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# QGen
+
+QGen is a series of dice tables that can be used to randomly generate a
+queer NPC for any tabletop roleplaying game.
+
+**Important Note:** These tables are designed for creating interesting
+NPCs, and do not reflect actual demographics of queer people in any way!
+
+project text
+
+
+:::::::::::::::: {.sidebar .next} ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+[No Fascists]{.sidehead .inclu}
+
+If you're a fascist, you're not welcome to play this game. It's against the rules. 
+
+If you're reading this and thinking, "You just call everyone you disagree with a fascist," 
+then you're probably a fascist, or incapable of drawing inferences from context and 
+acknowledging a dangerous political climate that causes the oppressed to be hyperbolic. 
+
+Don't play this game. Heal yourself. Grow. Learn. 
+Watch some [Mister Roger's Neighborhood](https://www.misterrogers.org/) or something.
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+## Credits
+
+This game was created by <a href="mailto:caderaspindrift@gmail.com">Cadera Spindrift</a>.
+
+
+The contents of the game are covered by the
+*Anti-Capitalist Attirbution Cooperative License* found at the end of the rules.
+
+
+*No Fascists* rule by <a href="https://machineage.tokyo/olivia-hill-rule/">Olivia Hill</a>, 
+licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+>Creative Commons Attribution Share-Alike 4.0</a>.
+
+
 ::::::::::::::::::::::::::::: license :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 [License]{#anchor-license .anchor}
 
-# Anti-Capitalist Attribution Cooperative License 
+## Anti-Capitalist Attribution Cooperative License 
 
 By exercising the Licensed Rights (defined below), You accept and agree to be 
 bound by the terms and conditions of this Anti-Capitalist Attribution 
@@ -12,7 +64,7 @@ acceptance of these terms and conditions, and the Licensor grants You such
 rights in consideration of benefits the Licensor receives from making the 
 Licensed Material available under these terms and conditions.
 
-## Section 1 – Definitions.
+### Section 1 – Definitions.
 
 A.  Adapted Material means material subject to Copyright and Similar Rights that 
     is derived from or based upon the Licensed Material and in which the Licensed 
@@ -94,7 +146,7 @@ A.  You means the individual or entity exercising the Licensed Rights under this
     Licensor to exercise rights under this License despite a previous violation. 
     Your has a corresponding meaning.
 
-## Section 2 – Scope.
+### Section 2 – Scope.
 
 A.  License grant.
 
@@ -158,7 +210,7 @@ A.  Other rights.
        licensing scheme. 
 
 
-## Section 3 – License Conditions.
+### Section 3 – License Conditions.
 
 Your exercise of the Licensed Rights is expressly made subject to the following 
 conditions.
@@ -211,7 +263,7 @@ A.  Cooperative
        License You apply. You may satisfy this condition in any reasonable manner 
        based on the medium, means, and context in which You Share Adapted Material.
 
-## Section 4 – Sui Generis Database Rights.
+### Section 4 – Sui Generis Database Rights.
 
 Where the Licensed Rights include Sui Generis Database Rights that apply to 
 Your use of the Licensed Material:
@@ -232,7 +284,7 @@ A.  You must comply with the conditions in Section 3(A) if You Share all or a
     Your obligations under this License where the Licensed Rights include other 
     Copyright and Similar Rights.
     
-## Section 5 – Disclaimer of Warranties and Limitation of Liability.
+### Section 5 – Disclaimer of Warranties and Limitation of Liability.
 
 A.  Unless otherwise separately undertaken by the Licensor, to the extent 
     possible, the Licensor offers the Licensed Material as-is and as-available, and 
@@ -258,7 +310,7 @@ A.  The disclaimer of warranties and limitation of liability provided above
     approximates an absolute disclaimer and waiver of all liability.
     
 
-## Section 6 – Term and Termination.
+### Section 6 – Term and Termination.
 
 A.  This License applies for the term of the Copyright and Similar Rights 
     licensed here. However, if You fail to comply with this License, then Your 
@@ -281,7 +333,7 @@ A.  For the avoidance of doubt, the Licensor may also offer the Licensed
 
 A.  Sections 1, 5, 6, 7, and 8 survive termination of this License.
 
-## Section 7 – Other Terms and Conditions.
+### Section 7 – Other Terms and Conditions.
 
 A.  The Licensor shall not be bound by any additional or different terms or 
     conditions communicated by You unless expressly agreed.
@@ -290,7 +342,7 @@ A.  Any arrangements, understandings, or agreements regarding the Licensed
     Material not stated herein are separate from and independent of the terms and 
     conditions of this License.
 
-## Section 8 – Interpretation.
+### Section 8 – Interpretation.
 
 A.  For the avoidance of doubt, this License does not, and shall not be 
     interpreted to, reduce, limit, restrict, or impose conditions on any use of the 
