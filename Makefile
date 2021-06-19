@@ -8,7 +8,7 @@
 #
 # Project id 
 #   Edit: yes
-PROJ = proj
+PROJ = qgen
 
 # Directories
 #   Edit: probably unnecessary
@@ -61,8 +61,8 @@ MAKE_MD = $(BINDIR)/make-markdown.lua -q
 
 # Open Windows File Explorer
 #   Edit: if you want to open the directory
-# EXPLORER = /mnt/c/WINDOWS/explorer.exe $(OUT) &> /dev/null
-EXPLORER = 
+EXPLORER = /mnt/c/WINDOWS/explorer.exe $(OUT) &> /dev/null
+# EXPLORER = 
 
 # Date Variable
 #   Edit: no

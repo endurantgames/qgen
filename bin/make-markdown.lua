@@ -3,7 +3,7 @@
 local CONFIG = {
   appname    = "make-markdown.lua",
   bin_dir    = "./bin",
-  build_dir  = "./.build",
+  build_dir  = "./build",
   errors     = true,
   extension  = ".md",
   ignore     = "^(%.git|Makefile|%.test|%.)",

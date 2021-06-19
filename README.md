@@ -1,7 +1,7 @@
-# TTRPG Template
+# QGen
 
-This is a template for tabletop roleplaying game projects created by Cadera Spindrift.
+QGen is a series of dice tables that can be used to randomly generate a
+queer NPC for any tabletop roleplaying game.
 
-To use it, create a project named `projname` then do this:
-
-`cp -r ttrpg/* projname`
+**Important Note:** These tables are designed for creating interesting
+NPCs, and do not reflect actual demographics of queer people in any way!
