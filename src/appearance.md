@@ -6,7 +6,11 @@ will help you determine what Qex looks like.
 
 ## Body Shape
 
-Table: Body Shape Rolls
+Roll 2d6 on **Body Shape Rolls** to determine how many tables to roll on. 
+Assume that Qex is unremarkable in any category you don't roll.
+
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Body Shape Rolls]{.caption}
 
  2d6   Tables to Roll On
 -----  -----------------------------------
@@ -21,8 +25,10 @@ Table: Body Shape Rolls
  10    B, C
  11    B, D
  12    A, B
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Table: Body Shape A (Tall or Short)
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Body Shape A (Tall or Short)]{.caption}
 
  2d4   Body Shape
 -----  --------------------------
@@ -33,8 +39,10 @@ Table: Body Shape A (Tall or Short)
   6    Taller than average
   7    Short
   8    Very tall
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Table: Body Shape B (Fat or Thin)
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Body Shape B (Fat or Thin)]{.caption}
 
  2d4   Body Shape   
 -----  --------------------------
@@ -45,8 +53,10 @@ Table: Body Shape B (Fat or Thin)
   6    Thinner than average
   7    Fat
   8    Very thin
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Table: Body Shape C (Muscular)
+::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
+[Body Shape C (Muscular)]{.caption}
 
  2d4   Body Shape   
 -----  --------------------------
@@ -54,8 +64,10 @@ Table: Body Shape C (Muscular)
  4-6   Average
   7    More muscular than average
   8    Very muscular
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Table: Body Shape D (Curvy)
+::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
+[Body Shape D (Curvy)]{.caption}
 
  2d4   Body Shape
 -----  ----------------------
@@ -63,8 +75,14 @@ Table: Body Shape D (Curvy)
  4-6   Average
   7    More curvy than average
   8    Very curvy
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Hair
+
+Roll 2d6 for Qex's hair color on **Hair Color**, then 2d6 on **Hairstyle**.
+
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Hair Color]{.caption}
 
  2d6   Hair Color
 -----  -------------------
@@ -79,6 +97,10 @@ Table: Body Shape D (Curvy)
  10    Red
  11    Blonde
  12    Roll 1d8+3 two times
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Hair Style]{.caption}
 
  2d6   Hairstyle
 -----  --------------------
@@ -93,8 +115,15 @@ Table: Body Shape D (Curvy)
  10    Shaved sides
  11    Bald
  12    Braids
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Facial Hair
+
+Anyone of any gender can have facial hair. Roll 2d6 on **Facial Hair** to determine
+if Qex has a beard or not.
+
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Facial Hair]{.caption}
 
  2d6    Facial Hair
 -----   --------------------------
@@ -105,14 +134,42 @@ Table: Body Shape D (Curvy)
  10     Stubble
  11     Van Dyke
  12     Impressively Long Beard
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Clothes
+
+While []{.gamename} doesn't include a full clothing generator, you can roll on **Clothing Style**
+to get a general sense of Qex's style, then on **Outfit** to determine if their clothing is coordinated
+or randomly assembled.
+
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Clothing Style]{.caption}
+
+ 1d8   Style
+-----  -------------------------
+  1    Ornate
+  2    Colorful
+  3    Ragged
+  4    Casual
+  5    Professional
+  6    Comfortable
+  7    Rebellious
+  8    Subtle
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::: {.random .short} ::::::::::::::::::::::::::::::::::::::::::
+[Outfit]{.caption}
 
  1d6   Outfit
 -----  ------------------------
   1    Matching shirt and pants
   2    Dress, robes, or gown
- 3-6   Roll separately for top and bottom
+ 3-5   Roll separately for top and bottom; matching style
+  6    Roll separately for top and bottom; mismatched styles
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Clothing (Top)]{.caption}
 
  2d4   Top
 -----  -------------------------
@@ -124,6 +181,10 @@ Table: Body Shape D (Curvy)
   7    Revealing blouse
   8    Shapeless sweater
   9    Leather harness
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::: random ::::::::::::::::::::::::::::::::::::::::::
+[Clothing (Bottom)]{.caption}
 
  2d4    Bottom
 -----   -----------------------------
@@ -135,4 +196,4 @@ Table: Body Shape D (Curvy)
   7     High boots
   8     Short Skirt
   9     Leather pants
-
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

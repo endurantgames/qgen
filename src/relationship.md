@@ -1,7 +1,11 @@
 # Optional: Relationship Status
 
-Table: Relationship Status
+If you think it may matter, you can roll on **Relationship Status** to determine if 
+Qex is single or not.
 
+[Relationship Status]{.caption}
+
+:::::::::::: random ::::::::::::::::::::::::::::
  2d6   Status
 -----  -------------------------------
   2    Caught in a bad romance
@@ -14,5 +18,29 @@ Table: Relationship Status
   9    Single, not looking
  10    In an open relationship
  11    Disinterested in relationships
- 12    Polygamous, 2d4 partners
+ 12    Polyamorous, 2d4 partners
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Being single doesn't necessarily mean Qex is willing to flirt with any player character, however.
+If you think this might matter, roll 2d6 on **Flirting** to see how Qex normally flirts;
+a second time to see how they would like to be flirted with; and a third time for an approach
+that will simply not work on them at all.
+
+:::::::::::: random ::::::::::::::::::::::::::::
+[Flirting]{.caption}
+
+ 2d4     Flirting
+-----    -------------------------------
+  2      Subtle and sophisticated charm
+  3      Suggestions of sexuality
+  4      Not interested in flirting
+  5      Playful and teasing flirtation
+  6      Mild flirtation
+  7      Chaste banter
+  8      Adorkable, flustered cluelessness
+  9      Earnest compliments
+ 10      Overwrought melodrama
+ 11      Aggressive pursuit
+ 12      Insults and sharp words
+::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -4,8 +4,11 @@
 might have. In no way is this meant as an endorsement of such beliefs, only that
 they might appear in a fictional context.
 
-If you think Qex might be a TERF or something, you can roll on the following table
+If you think Qex might be a TERF or something, you can roll on **Biases and Bigotries**
 to find out.
+
+::::::::::::::::::: random :::::::::::::::::::::::::::::::::::::
+[Biases and Bigotries]{.caption}
 
  2d20    Bias or Bigotry 
 ------   ----------------------------------------------------
@@ -16,7 +19,9 @@ to find out.
    6     Against fat people
    7     Against trans people
    8     Against disabled people
-  9-33   None
+   9     Against men
+ 10-32   None
+  33     Against women
   34     Against people from a marginalized race
   35     Against non-binary people
   36     Against trans women
@@ -24,5 +29,6 @@ to find out.
   38     Against asexual and aromantic people
   39     Against mspec people
   40     Roll twice more
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

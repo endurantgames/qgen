@@ -58,6 +58,7 @@ header h1     { string-set: gamename content()       }
 
   --bgcolor-sidebar: #EEEEEE;
   --bgcolor-toolkit: #F8FFF8;
+  --bgcolor-random: #F8F8F8;
 
   counter-reset: table figure sidebar;
 }
@@ -82,7 +83,7 @@ h1                 { column-span: all; text-align: center;                  }
 .colspan           { column-span: all;                                      }
 .bottom            { column-span: all; float: page-bottom;                  }
 p+table            { break-before: avoid-page;                              }
-table              { border-collapse: collapse; break-inside: avoid-page;   }
+table              { border-collapse: collapse;                             }
 table tr           { break-inside: avoid-page;                              }
 table thead        { break-after: avoid;                                    }
 table thead        { border-bottom: 0.5pt solid var(--color-line);          }
@@ -158,16 +159,19 @@ p, li { orphans: 3; line-height: 1.40; }
 @page:nth(3) { @top-left      { content: normal; }  }
 @page:nth(3) { @top-right     { content: normal; }  }
 
+figure figcaption { 
+  counter-increment: figure; 
+  display: block; 
+  font-size: var(--th); 
+  font-family: var(--font-header); 
+}
 
-figure figcaption { counter-increment: figure; display: block; font-size: var(--th); font-family: var(--font-header); }
-table caption     { counter-increment: table; display: block; font-size: var(--th); font-family: var(--font-header);       }
-.sidehead         { counter-increment: sidebar;                                                                       }
-.chapter          { counter-increment: chapter;                                                                       }
-.section          { counter-increment: section;                                                                       }
+
+.sidehead { counter-increment: sidebar; }
+.chapter  { counter-increment: chapter; }
+.section  { counter-increment: section; }
 
 figure figcaption:before { content: 'Figure ' counter(figure) ': '; }
-figure caption:before    { content: 'Table ' counter(table) ': ';   }
-
 .section > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Section ' counter(section) ': ';        }
 .chapter > :matches(h1, h2, h3, h4, h5, h6):first-child:before { content: 'Chapter ' counter(chapter) ': ';        }
 
@@ -295,4 +299,36 @@ a:hover   { text-decoration: none; color: red;    }
 @page charsheet { @top-left      { content: normal; } }
 @page charsheet { @bottom-center { content: normal; } }
 
+.random .caption { 
+  column-span: all; 
+  text-align: center;
+  counter-increment: table; 
+  font-weight: bold;
+  display: block; 
+  font-size: var(--th); 
+  font-family: var(--font-header);       
+  background: linear-gradient(to right, red, orange, goldenrod, green, teal, blue, purple, violet); 
+  margin-left: -0.5pt;
+  margin-right: -0.5pt;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+  color: white;
+  border-radius: 3pt 3pt 0 0;
+}
+.random .caption:before { content: 'Table ' counter(table) ': ';   }
+.random table { width: 100%; }
+.random.short table { column-span: all; }
+
+.random {
+  overflow: clip;
+  break-inside: avoid;
+  border: 0.5pt solid var(--color-line);
+  background-color: var(--bgcolor-random);
+  border-radius: 3pt;
+  column-count: 2;
+  column-gap: 0;
+  column-width: auto;
+  margin-bottom: 6pt;
+  margin-top: 6pt;
+}
 
